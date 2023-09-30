@@ -42,18 +42,24 @@ nav {
 }
 
 
+.link-color1 {
+  color: #fefbea;
+  font-size: 1.5em;
+  padding: 10px;
+  margin-right: 20px;
+}
+.link-color2{
+  color: #04446a ;
+}
+
+
 
 
 main {
   padding: 20px;
 }
 
-footer {
-  background: linear-gradient(to bottom, #ddebdc, #04446a);
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
+
 
 .flex-container {
   display: flex;
@@ -149,25 +155,6 @@ footer {
   }
 }
 
-.workcontent {
-  flex-grow: 1;
-  display: flex;
-  padding: 15px;
-}
-
-
-
-.contactinfo {
-  display: flex;
-  flex-wrap: wrap;
-  color: #04446a; 
-  flex-grow: 1;
-}
-
-
-
-
-
 .about-text,
 p {
   width: 80%;
@@ -177,6 +164,7 @@ p {
 
 .about-text {
   line-height: 1.2;
+  color: #04446a;
   
   
 }
@@ -218,6 +206,43 @@ p {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.work-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+ 
+}
+
+
+
+.work-item:last-of-type {
+  margin-right: 0;
+}
+
+
+
+.work-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Change the color and opacity here */
+  transition: background-color 0.3s ease;
+}
+
+.work-item:hover::after {
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.workcontent {
+  flex-grow: 1;
+  display: flex;
+  padding: 15px;
 }
 
 .overlay-box {
@@ -263,66 +288,22 @@ p {
   font-weight: bold;
 }
 
-
-
-
-.work-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
- 
-}
-
 .overlay-left {
-color: red
+  color: red
+  
+  }
 
-}
-
-.work-item:last-of-type {
-  margin-right: 0;
-}
-
-
-
-.work-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0); /* Change the color and opacity here */
-  transition: background-color 0.3s ease;
-}
-
-.work-item:hover::after {
-  background-color: rgba(0, 0, 0, 0.4); 
+.contactinfo {
+  display: flex;
+  flex-wrap: wrap;
+  color: #04446a; 
+  flex-grow: 1;
 }
 
 .new-element1,
 .new-element2 {
   max-width: 100%;
   flex-grow: 1;
-}
-
-.new-element1:hover {
-  color: red;
-}
-
-.new-element2:hover {
-  color: red;
-}
-
-
-.link-color1 {
-  color: #fefbea;
-  font-size: 1.5em;
-  padding: 10px;
-  margin-right: 20px;
-}
-.link-color2{
-  color: #04446a ;
 }
 
 #contact-jump {
@@ -346,6 +327,8 @@ footer {
   text-align: center;
 
 }
+
+
 
 
 
