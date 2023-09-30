@@ -1,5 +1,4 @@
-
-  *:not(footer) {
+*:not(footer) {
   border-radius: 5px;
 }
 
@@ -125,9 +124,16 @@ footer {
   padding: 15px;
 }
 
+
+
 .contactinfo {
+  display: flex;
+  flex-wrap: wrap;
+  color: #04446a; 
   flex-grow: 1;
 }
+
+
 
 
 
@@ -263,12 +269,6 @@ color: red
   background-color: rgba(0, 0, 0, 0.4); /* Change the color and opacity here */
 }
 
-.contactinfo {
-  display: flex;
-  flex-wrap: wrap;
-  color: #04446a; 
-}
-
 .new-element1,
 .new-element2 {
   max-width: 100%;
@@ -282,5 +282,7 @@ footer {
   font-size: 24px; /* adjust the font size as needed */
   height: 100px; /* set a height for the footer */
   background-color: #fefbea; /* optional background color for visibility */
+  
+
 }
 
