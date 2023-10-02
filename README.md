@@ -50,3 +50,6 @@ Please feel free to use this portfolio as an example of my development skills, a
 
 For any issues or questions, please contact [Carlos Palacio ](mailto:carlosmariopalacio@gmail.com).
 
+## Example Image 
+
+(/Users/gaw/bootcamp/Portfolio-Project2/Screenshot 2023-10-01 at 9.53.30 PM.png)
