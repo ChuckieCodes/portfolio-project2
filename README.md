@@ -52,4 +52,6 @@ For any issues or questions, please contact [Carlos Palacio ](mailto:carlosmario
 
 ## Example Image 
 
-(/Users/gaw/bootcamp/Portfolio-Project2/Screenshot 2023-10-01 at 9.53.30 PM.png)
+https://github.com/ChuckieCodes/portfolio-project2/blob/main/Screenshot%202023-10-01%20at%209.53.30%20PM.png
+
+https://github.com/ChuckieCodes/portfolio-project2/blob/main/Screenshot%202023-10-01%20at%209.53.41%20PM.png
