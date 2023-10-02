@@ -33,7 +33,9 @@ THEN it should have a responsive layout that adapts to the viewport.
 - CSS
 
 ## Installation
-To view and interact with my portfolio, simply visit my portfolio website in your web browser.
+To view and interact with my portfolio, simply visit my portfolio website in your web browser:
+
+https://chuckiecodes.github.io/portfolio-project2/
 
 By visiting the live website, you will be able to see the complete portfolio and all its features without the need for any local installation.
 
